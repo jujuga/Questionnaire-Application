@@ -1,0 +1,18 @@
+{"Description":"Inside which HTML element do we put the JavaScript?","A":"&lt;script>","B":"&lt;javascript>","C":"&lt;JavaScript>","Solution":"A","Chapter":"Where To"}
+{"Description":"What is the correct JavaScript syntax to change the content of the HTML element below?<br>&lt;p id=\"demo\">This is a demonstration.&lt;/p>","A":"document.getElementsByName(\"demo\").innerHTML = \"Hello World\";","B":"document.getElementById(\"demo\").innerHTML = \"Hello World\";","C":"document.getElementById(\"demo\").innerHtml = \"Hello World\";","Solution":"B","Chapter":"Syntax"}
+{"Description":"Where is the correct place to insert a JavaScript?","A":"Both the &lt;head> section and the &lt;body> section are correct","B":"The &lt;head> section","C":"The &lt;body> section","Solution":"A","Chapter":"Where To"}
+{"Description":"What is the correct syntax for referring to an external script called \"xxx.js\"?","A":"&lt;script name=\"xxx.js\">","B":"&lt;jref=\"xxx.js\">","C":"&lt;script src=\"xxx.js\">","Solution":"C","Chapter":"Syntax"}
+{"Description":"The external JavaScript file must contain the &lt;script> tag.","A":"TRUE","B":"FALSE","C":"Not specific","Solution":"B","Chapter":"Others"}
+{"Description":"How do you write \"Hello World\" in an alert Box?","A":"prompt(\"Hello World\");","B":"alert(\"Hello World\");","C":"msg(\"Hello World\");","Solution":"B","Chapter":"Events"}
+{"Description":"How do you create a function in JavaScript?","A":"int myFunction();","B":"function::myFunction()","C":"function myFunction()","Solution":"C","Chapter":"Function"}
+{"Description":"How do you call a function named \"myFunction\"?","A":"function call myFunction();","B":"myFunction()","C":"function myFunction()","Solution":"B","Chapter":"Function"}
+{"Description":"How to write an IF statement in JavaScript?","A":"if i = 5","B":"if i equalTo 5","C":"if ( i == 5 )","Solution":"C","Chapter":"Condition"}
+{"Description":"How to write an IF statement for executing some code if \"i\" is NOT equal to 5?","A":"if ( i != 5 )","B":"if ( i X= 5 )","C":"if i != 5","Solution":"A","Chapter":"Condition"}
+{"Description":"How does a WHILE loop start?","A":"while ( i = 0; i < 10; i++ )","B":"while i = 10","C":"while ( i < 10 )","Solution":"C","Chapter":"Condition"}
+{"Description":"How does a FOR loop start?","A":"for ( i = 0, i < 10, i++ )","B":"for i = 10; i++","C":"for ( i = 0; i < 10; i++ )","Solution":"C","Chapter":"Condition"}
+{"Description":" How can you add a comment in a JavaScript?","A":"&lt;This is a comment","B":"'This is a comment","C":"//This is a comment","Solution":"C","Chapter":"Others"}
+{"Description":"How to insert a comment that has more than one line?","A":"//This is a comment<br>This is a comment//","B":"/*This is a comment<br>This is a comment*/","C":"&lt;!--This is a comment<br>This is a comment-->","Solution":"B","Chapter":"Others"}
+{"Description":"What is the correct way to write a JavaScript array?","A":"var color = \"red\", \"green\", \"blue\"","B":"var colors = (1:\"red\", 2:\"green\", 3:\"blue\")","C":"var colors = [\"red\", \"green\", \"blue\"]","Solution":"C","Chapter":"Arrays"}
+{"Description":"What is the correct JavaScript syntax for opening a new window called \"w2\"?","A":"w2 = window.open(\"http://www.w3schools.com\");","B":"open.window(\"w2\");","C":"window.open(\"w2\");","Solution":"A","Chapter":"Events"}
+{"Description":"Which event occurs when the user clicks on an HTML element?","A":"onclick","B":"onmouseover","C":"onchange","Solution":"A","Chapter":"Events"}
+{"Description":"How do you declare a JavaScript variable?","A":"String carName;","B":"var carName;","C":"variable carName;","Solution":"B","Chapter":"Variables"}

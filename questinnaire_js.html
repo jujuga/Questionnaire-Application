@@ -15,7 +15,7 @@
     </style>
 
 <script src="HTTP2019.js"></script>
-    <script src="answerPost_html.js"></script>
+    <script src="answerPost_js.js"></script>
     <script>
         var myObj;
 
@@ -23,8 +23,8 @@
             alert(myObj.length);
         }
         function getData() {
-            HTTPGetData("Get.aspx?id=questionaireDB_html");
-            //HTTPGetData("Get.aspx?id=questionaireDB_js");
+            //HTTPGetData("Get.aspx?id=questionaireDB_html");
+            HTTPGetData("Get.aspx?id=questionaireDB_js");
         }
 
         function showData() {

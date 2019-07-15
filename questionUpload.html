@@ -13,7 +13,7 @@
                     var str = "";
                     var option = document.getElementById("subject").value;
                     h_chapter = ["chapter", "Attributes", "Comments", "Image", "Heading", "Paragraph", "Links", "Tables", "Lists", "Id", "Forms", "Form Elements", "Input", "Style", "Others"]; // 宣告race陣列
-                    j_chapter = ["chapter", "Where To", "Output", "Syntax", "Variables", "Data Types", "Function", "Object", "Strings", "Events", "Arrays", "Condition", "Others"];
+                    j_chapter = ["chapter", "Where To", "Output", "Syntax", "Variables", "Data Types", "Function", "Object", "Strings", "Events", "Arrays", "Condition", "Others", "Method"];
                     if (option == "HTML") {
                         for (i = 1; i < h_chapter.length; i++)
                             str += "<option id=\"" + h_chapter[0] + "\"" + i + "\" name=\"" + h_chapter[0] + "\" value=\"" + h_chapter[i] + "\">" + h_chapter[i] + "</option>";
@@ -57,7 +57,7 @@
 				else
 				    alert("Incomplete entry");
 			} // end function
-
+            
 			function refresh(){
 				document.getElementById("input1").value = "";
 				document.getElementById("answerA").value = "";
